@@ -21,8 +21,6 @@ for k = 1:max_iter
 end
  disp(x_new);
 
-% Reset untuk Gauss-Seidel
-x = zeros(4,1);
 
 % Metode Gauss-Seidel
 disp('Metode Gauss-Seidel: ');
